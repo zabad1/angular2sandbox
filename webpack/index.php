@@ -11,10 +11,10 @@ if(session_status() !== PHP_SESSION_ACTIVE) {
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<base href="<?php echo dirname($_SERVER["PHP_SELF"]) . "/"; ?>" />
 
-		<title>Angular 2 Example</title>
+		<title>Angular 2 Sandbox</title>
 	</head>
 	<body>
 		<!-- This custom tag much match your Angular @Component selector name in app/app.component.ts -->
-		<angular2-example-app>Loading&hellip;</angular2-example-app>
+		<angular2-sandbox-app>Loading&hellip;</angular2-sandbox-app>
 	</body>
 </html>
